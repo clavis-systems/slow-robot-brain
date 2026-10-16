@@ -1,0 +1,3 @@
+%%bash
+export MPLBACKEND=Agg FASE=C1 BUDGET=40000
+bash "$(find /kaggle/input -name kaggle_esegui.sh)" 2>&1 | tee /kaggle/working/esecuzione.log
